@@ -9,15 +9,15 @@ function List(){
   this.insert = insert;
   this.append = append;
   this.remove = remove;
- // this.front = front;
-//  this.end = end;
+  this.front = front;
+  this.end = end;
  // this.prev = prev;
  // this.next = next;
-  this.length = length;
-//  this.currPos = currPos;
+    this.length = length;
+ // this.currPos = currPos;
  // this.moveTo = moveTo;
  // this.getElement = getElement;
-  this.length = length;
+    this.length = length;
  // this.contains = contains;
 
 function append(element){
@@ -68,6 +68,14 @@ function clear(){
   this.listSize = this.pos = 0;
 }
 
+function front(){
+ return  this.dataStore[0];
+
+}
+
+function end(){
+  return this.dataStore[this.dataStore.length - 1];
+}
 
 }
 
@@ -83,3 +91,5 @@ names.insert("elvis", "Zanif");
 console.log(names.toString());
 //names.clear();
 //console.log(names.toString());
+console.log(names.front());
+console.log(names.end());
