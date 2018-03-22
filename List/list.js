@@ -1,5 +1,5 @@
 function List(){
-
+   
   this.listSize = 0;
   this.pos= 0;
   this.dataStore = [];
@@ -57,7 +57,7 @@ function insert(element , after){
     this.dataStore.splice(insertPos+1, 0, element);
     ++this.listSize;
     return true;
-
+    
   }
   return false;
 }
@@ -74,13 +74,13 @@ function contains(element){
       return true;
     }
   }
- return false;
+ return false; 
 }
 }
 
 function front(){
  this.pos = 0;
-
+  
 }
 
 function end(){
@@ -102,7 +102,7 @@ function currPos(){
 }
 function moveTo(position){
   this.pos = position ;
-
+  
 }
 
 function getElement(){
@@ -157,7 +157,9 @@ lime.append("JJ");
 console.log(lime.toString());
   lime.front();
   while (lime.currPos() < lime.length() - 1){
-
+    
     console.log(`Hello ${lime.getElement()}, Welcome`);
     lime.next();
   }
+  
+
