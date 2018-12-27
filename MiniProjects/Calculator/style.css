@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'DS-DIGI';
+  src: url('Font/DS-DIGII.TTF') format('truetype'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('Font/DS-DIGI.TTF') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9eda6+0,f17432+43,ea5507+61,fb955e+100 */
+/* background: #e9eda6; /* Old browsers */ */ */
+/* background: -moz-linear-gradient(45deg, #e9eda6 0%, #f17432 43%, #ea5507 61%, #fb955e 100%); /* FF3.6-15 */ */
+background: -webkit-linear-gradient(45deg, #e9eda6 0%,#f17432 43%,#ea5507 61%,#fb955e 100%);
+background: linear-gradient(45deg, #e9eda6 0%,#f17432 43%,#ea5507 61%,#fb955e 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9eda6', endColorstr='#fb955e',GradientType=1 );
+}
+
+#center-cal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.textfield{
+width: 240px;
+margin:5;
+font-size: 65px;
+border-radius: 5px;
+font-family: "DS-DIGI";
+padding-left: 5px;
+border-color: white;
+color: #053310;
+}
+
+.num_buttons{
+  width: 60px;
+  height:60px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #fcfdff;
+  border-radius: 5px;
+
+}
+
+.rent{
+background-color: orange;
+color: white;
+border-color: orange;
+
+
+}
+#zero{
+  width: 120px;
+}
+#equal{
+  height: 120px;
+}
+
+#light{
+  width: 60px;
+  height:60px;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #fcfdff;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 40px;
+
+
+}

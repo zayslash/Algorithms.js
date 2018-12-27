@@ -1,0 +1,155 @@
+html{
+background-color: #010101;
+height: 100%;
+}
+
+#header{
+padding: 6px 6px 6px 6px;
+
+}
+.logo{
+width: 300px;
+float: center;
+}
+
+.juneapp{
+
+      position: absolute;
+         right: 325px;
+         top: 500px;
+         z-index: 1000;
+
+
+  width: 300px;
+  height: 500px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+    float: center;
+    padding: 50px 10px 50px 600px;
+}
+
+.pads{
+
+  width: 60px;
+  height: 60px;
+
+  box-shadow: 0 8px 6px -6px black;
+  background-color: #444;
+  /*padding-left: 2px;*/
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.4);
+  user-select: none;
+  border: solid black;
+}
+
+.pads:hover{
+  border-color: white;
+  	border-width:1px 1px 1px 1px;
+  	color: white;
+
+}
+
+
+#input{
+padding: 50px 10px 10px 100px;
+width: 100%;
+color:white;
+
+}
+
+
+#mpcimg{
+  height: 1000px;
+width: 1000px;
+position: absolute;
+right: 200px;
+top: 300px;
+z-index: 1000;
+
+
+}
+
+
+.marquee {
+
+    background: red;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+.mpcscreen{
+  font-size: 20px;
+  color:grey;
+
+}
+
+
+#right{
+  width: 70px;
+  float:right;
+
+  position: static;
+
+}
+
+#left{
+  position: static;
+  top: 3px;
+  width: 70px;
+
+}
+
+
+#right:hover{
+
+width: 68px;
+}
+
+
+#left:hover{
+
+width: 68px;
+}
+
+.screenwrapper{
+  background-color: black;
+  padding-bottom: 20px;
+  height: 80px;
+  width:300px;
+border-radius: 5px;
+
+  position: absolute;
+     right: 690px;
+     top: 502px;
+     z-index: 1000;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bg {
+	display: table;
+	height: 100%;
+	width: 100%;
+	background: url(http://subtlepatterns.com/patterns/tactile_noise.png);
+	color: #FFF;
+}
+.to-center {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}

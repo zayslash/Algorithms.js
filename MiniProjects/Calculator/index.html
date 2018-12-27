@@ -1,0 +1,64 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Calculator</title>
+
+
+</head>
+
+<body id="body">
+
+
+<input id="light" type="button" value="&#9889;" onclick="randomColor()">
+
+
+<div id="center-cal">
+<form class="" action="index.html" method="post">
+<input class="textfield" id="textbox">
+
+</form>
+
+<table>
+
+<tr>
+<td><input  class="num_buttons rent" type="button" value="c" onclick="insertValue('c')"></td>
+<td><input  class="num_buttons rent" type="button" value="del" onclick="insertValue('del')" id="del"></td>
+<td><input  class="num_buttons rent" type="button" value="/" onclick="insertValue('/')"></td>
+<td><input  class="num_buttons rent" type="button" value="x" onclick="insertValue('x')"></td>
+<td><input  class="num_buttons" type="button" value="e^x" onclick="insertValue('^')"></td>
+</tr>
+
+<tr>
+<td><input  class="num_buttons" type="button" value="7" onclick="insertValue(7)"></td>
+<td><input  class="num_buttons" type="button" value="8" onclick="insertValue(8)"></td>
+<td><input  class="num_buttons" type="button" value="9" onclick="insertValue(9)"></td>
+<td><input  class="num_buttons rent" type="button" value="-" onclick="insertValue('-')"></td>
+</tr>
+
+<tr>
+<td><input  class="num_buttons" type="button" value="4" onclick="insertValue(4)"></td>
+<td><input  class="num_buttons" type="button" value="5" onclick="insertValue(5)"></td>
+<td><input  class="num_buttons" type="button" value="6" onclick="insertValue(6)"></td>
+<td><input  class="num_buttons rent" type="button" value="+" onclick="insertValue('+')"></td>
+</tr>
+
+<tr>
+<td><input  class="num_buttons" type="button" value="1" onclick="insertValue(1)"></td>
+<td><input  class="num_buttons" type="button" value="2" onclick="insertValue(2)"></td>
+<td><input  class="num_buttons " type="button" value="3" onclick="insertValue(3)"></td>
+<td rowspan=5><input  class="num_buttons rent" type="button" value="=" onclick="evaluateThis()" id="equal"></td>
+</tr>
+
+<tr>
+<td colspan=2 ><input  class="num_buttons" type="button" value="0" onclick="insertValue(0)" id="zero"></td>
+<td ><input  class="num_buttons" type="button" value="." onclick="insertValue('.')" ></td>
+
+</tr>
+
+</table>
+
+</div>
+</body>
+<script src="calculator.js"></script>
+
+</html>

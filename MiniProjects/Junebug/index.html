@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Junebug</title>
+<link rel= "stylesheet" href ="assets/styles/style.css"></style>
+
+</head>
+<body>
+
+<div id="header">
+<img src= "assets/images/junebug.png" class= "logo">
+
+</div>
+
+<!--        Was used to input data from the user keyinput         -->
+<!--<input type="text" size="40" onkeypress="myFunction(event)" id ="input" value="Play">-->
+
+<div class ="Appcontainer">
+<div class ="MPCApplication">
+
+<img src="assets/images/mpcimg4.png" id="mpcimg">
+<div class="juneapp" id="juneapp">
+
+    <div id="pad-1" class="pads">5</div>
+    <div id="pad-2" class="pads">6</div>
+    <div id="pad-3" class="pads">7</div>
+    <div id="pad-4" class="pads">8</div>
+
+    <div id="pad-5" class="pads">R</div>
+    <div id="pad-6" class="pads">T</div>
+    <div id="pad-7" class="pads">Y</div>
+    <div id="pad-8" class="pads">U</div>
+
+    <div id="pad-9" class="pads">F</div>
+    <div id="pad-10" class="pads">G</div>
+    <div id="pad-11" class="pads">H</div>
+    <div id="pad-12" class="pads">J</div>
+
+    <div id="pad-13" class="pads">C</div>
+    <div id="pad-14" class="pads">V</div>
+    <div id="pad-15" class="pads">B</div>
+    <div id="pad-16" class="pads">N</div>
+<element onkeypress="pad_num16()">
+<!-- <button onclick="volume()"></button> -->
+</div>
+</div>
+
+<div class="screenwrapper">
+    <img src="assets/images/left.png"  id="left">
+    <img src="assets/images/right.png" id="right">
+
+<marquee behavior="alternate"><span class="mpcscreen" id ="mpcs">This is a marquee!</span></marquee>
+
+</div>
+</div>
+<script src="MPC.js"></script>
+
+<footer></footer>
+</body>
+
+
+</html>
